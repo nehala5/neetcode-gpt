@@ -1,6 +1,4 @@
 class Solution:
-    def f(self, x):
-        return x**2
     def deriv(self, x):
         return 2*x
     def get_minimizer(self, iterations: int, learning_rate: float, init: int) -> float:
